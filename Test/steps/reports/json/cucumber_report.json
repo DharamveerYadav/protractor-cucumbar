@@ -1,0 +1,297 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "To work with home page",
+    "line": 1,
+    "id": "to-work-with-home-page",
+    "tags": [],
+    "uri": "../features/Home.feature",
+    "elements": [
+      {
+        "id": "to-work-with-home-page;click-course-of-application",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Click course of application",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to application",
+            "match": {
+              "location": "HomeSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2229000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I get all the heading",
+            "match": {
+              "location": "HomeSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click the 'Selenium framework development' course",
+            "match": {
+              "location": "HomeSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see 'Selenium framework development' course in coursedetails page",
+            "match": {
+              "location": "HomeSteps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Courses",
+                      "Duration"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Selenium",
+                      "2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Java",
+                      "3"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see all course information in coursedetails page",
+            "match": {
+              "location": "HomeSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../hooks/ScenarioHook.ts:17"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "to-work-with-home-page;click-course-of-application-second-time",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Click course of application second time",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to application",
+            "match": {
+              "location": "HomeSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1546000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I get all the heading",
+            "match": {
+              "location": "HomeSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click the 'Selenium framework development' course",
+            "match": {
+              "location": "HomeSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should see 'Selenium framework development' course in coursedetails page",
+            "match": {
+              "location": "HomeSteps.ts:21"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../hooks/ScenarioHook.ts:17"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "to-work-with-home-page;search-for-course-from-external-datasource",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Search for course from External DataSource",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 22
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to application",
+            "match": {
+              "location": "HomeSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1497000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I enter text in search from external data source",
+            "match": {
+              "location": "HomeSteps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I get all the heading",
+            "match": {
+              "location": "HomeSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../hooks/ScenarioHook.ts:17"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
