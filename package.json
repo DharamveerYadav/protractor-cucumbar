@@ -2,7 +2,7 @@
   "name": "EACourseApp",
   "version": "1.0.0",
   "scripts": {
-    "start": "concurrently \"npm run tsc:w\" \"npm run server\" ",
+    "start": "npm run server",
     "server": "node node_modules/ng2f-server/server.js",
     "tsc": "tsc",
     "tsc:w": "tsc -w"
@@ -30,6 +30,7 @@
     "core-js": "~2.5.3",
     "ng2f-bootstrap": "~0.0.4",
     "ng2f-server": "~1.0.0",
+    "puppeteer": "^2.1.1",
     "reflect-metadata": "~0.1.8",
     "rxjs": "5.5.6",
     "systemjs": "0.21.0",

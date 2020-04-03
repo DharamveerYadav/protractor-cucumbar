@@ -5,7 +5,7 @@
     "line": 1,
     "id": "to-work-with-home-page",
     "tags": [],
-    "uri": "../features/Home.feature",
+    "uri": "..\\features\\Home.feature",
     "elements": [
       {
         "id": "to-work-with-home-page;click-course-of-application",
@@ -30,7 +30,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2229000000
+              "duration": 2791000000
             }
           },
           {
@@ -43,7 +43,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41000000
+              "duration": 115000000
             }
           },
           {
@@ -56,7 +56,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 91000000
+              "duration": 452000000
             }
           },
           {
@@ -69,7 +69,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 2000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "../hooks/ScenarioHook.ts:17"
+              "location": "..\\hooks\\ScenarioHook.ts:17"
             },
             "result": {
               "status": "passed"
@@ -122,7 +122,7 @@
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "../../node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+              "location": "..\\..\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
             },
             "result": {
               "status": "passed",
@@ -154,7 +154,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1546000000
+              "duration": 1687000000
             }
           },
           {
@@ -167,7 +167,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 33000000
+              "duration": 117000000
             }
           },
           {
@@ -180,7 +180,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 101000000
+              "duration": 370000000
             }
           },
           {
@@ -199,7 +199,7 @@
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "../hooks/ScenarioHook.ts:17"
+              "location": "..\\hooks\\ScenarioHook.ts:17"
             },
             "result": {
               "status": "passed"
@@ -209,7 +209,7 @@
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "../../node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+              "location": "..\\..\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
             },
             "result": {
               "status": "passed"
@@ -240,7 +240,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1497000000
+              "duration": 1193000000
             }
           },
           {
@@ -253,7 +253,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41000000
+              "duration": 69000000
             }
           },
           {
@@ -266,14 +266,14 @@
             },
             "result": {
               "status": "passed",
-              "duration": 147000000
+              "duration": 1226000000
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "../hooks/ScenarioHook.ts:17"
+              "location": "..\\hooks\\ScenarioHook.ts:17"
             },
             "result": {
               "status": "passed"
@@ -283,7 +283,7 @@
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "../../node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+              "location": "..\\..\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
             },
             "result": {
               "status": "passed",
